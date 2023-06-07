@@ -1,0 +1,7 @@
+on: workflow_dispatch
+
+jobs:
+  use-workflow:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      your-name: "Jesse"
